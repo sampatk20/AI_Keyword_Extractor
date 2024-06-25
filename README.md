@@ -25,7 +25,7 @@ In the context of the project, the GROQ API is used to fetch data from the Llama
 - **Fetching Data:** The GROQ queries are used to retrieve the data processed by the Llama model-3, such as extracting keywords or bullet points from the input text.
 - **Displaying Data:** The fetched data is then displayed in the user interface using Chakra UI components.
 
-
+- [Live Link](https://sampatk20.github.io/AI_Keyword_Extractor/)
 
 ## Installation
 
@@ -60,10 +60,6 @@ In the context of the project, the GROQ API is used to fetch data from the Llama
 
 
 # React + Vite
-
-
-- [Live Link ](https://sampatk20.github.io/AI_Keyword_Extractor/)
-
 
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
