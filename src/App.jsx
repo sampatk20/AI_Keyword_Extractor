@@ -24,7 +24,7 @@ const App = () => {
 
     try {
       const chatCompletion = await groq.chat.completions.create({
-        messages: [{ role: 'user', content: 'Extract Keywords from this text. Make the first letter of each word Uppercase and separate with commas or bullet points \n\n' + text }],
+        messages: [{ role: 'user', content: 'Extract Keywords from this text. Make the first letter of each word Uppercase and separate with commas \n\n' + text }],
         model: 'llama3-8b-8192',
       });
 
